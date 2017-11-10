@@ -51,3 +51,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*Temporary CSS for Positioning*/
+
+header {
+  background-color: yellow;
+}
+
+section {
+  background-color: blue;
+}
+
+aside {
+  background-color: purple;
+}
+ nav {
+   background-color: red;
+ }
+ footer {
+   background-color: green;
+ }
