@@ -101,8 +101,34 @@ nav {
   right: 0px;
 }
 
-
-
 nav ul {
 
+}
+
+/*Main CSS*/
+
+main {
+  border: solid 1px black;
+  margin: 5px;
+  position: relative;
+  height: 300px;
+}
+figure {
+
+}
+
+aside {
+  width: 20px;
+  height: 90px;
+  margin: 1px;
+}
+
+.left {
+  position: absolute;
+  left: 0px;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
 }
