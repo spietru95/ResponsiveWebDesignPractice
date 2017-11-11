@@ -72,10 +72,12 @@ aside {
    background-color: green;
  }
 
- figure {
-   background-color: blue;
- }
 
+/*Background CSS*/
+body {
+  font-size: 16px;
+  background-image
+}
 
 /*Header-name CSS*/
 
@@ -109,11 +111,29 @@ nav ul {
 
 main {
   border: solid 1px black;
-  margin: 5px;
   position: relative;
-  height: 300px;
 }
+
 figure {
+  height: 600px;
+  width: 1800px;
+  margin: 20px auto;
+  border: red 2px solid;
+  position: relative;
+}
+
+img {
+  height: 600px;
+  width: 1800px;
+  opacity: .7;
+}
+
+figure p {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 
 }
 
