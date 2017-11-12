@@ -72,10 +72,22 @@ aside {
    background-color: green;
  }
 
- figure {
-   background-color: blue;
+ figure { background-color: white;
+   width: 50px;
  }
 
+/*Getting the picture working*/
+
+body {
+  background-color: lightblue;
+}
+
+div {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
 
 /*Header-name CSS*/
 
@@ -131,4 +143,10 @@ aside {
 .right {
   position: absolute;
   right: 0px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  opacity: .5;
 }
