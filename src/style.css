@@ -72,13 +72,18 @@ aside {
    background-color: green;
  }
 
+/* Fonts */
+@font-face {
+  font-family: "Mexican";
+  src: url(fonts/Mexican.TTF);
+}
 
 /*Background CSS*/
 body {
   font-size: 16px;
   background-image:url("http://eduardosmexicanrestaurant.com/images/faj_fondo.gif?crc=3785398201");
   background-repeat: no-repeat;
-/*  background-size: cover;*/
+  background-size: cover;
 
 }
 
@@ -96,6 +101,7 @@ header.name {
   border: 1px solid black;
   position: absolute;
   left: 0px;
+  font-family: "Mexican";
 }
 
 nav {
@@ -123,6 +129,7 @@ figure {
   margin: 20px auto;
   border: red 2px solid;
   position: relative;
+  background-color: white;
 }
 
 img {
