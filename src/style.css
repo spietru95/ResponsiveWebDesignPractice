@@ -76,7 +76,10 @@ aside {
 /*Background CSS*/
 body {
   font-size: 16px;
-  background-image
+  background-image:url("http://eduardosmexicanrestaurant.com/images/faj_fondo.gif?crc=3785398201");
+  background-repeat: no-repeat;
+/*  background-size: cover;*/
+
 }
 
 /*Header-name CSS*/
