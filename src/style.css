@@ -54,9 +54,6 @@ table {
 
 /*Temporary CSS for Positioning*/
 
-header {
-  background-color: yellow;
-}
 
 section {
   background-color: blue;
@@ -65,9 +62,7 @@ section {
 aside {
   background-color: purple;
 }
- nav {
-   background-color: red;
- }
+
  footer {
    background-color: green;
  }
@@ -81,7 +76,7 @@ aside {
 /*Background CSS*/
 body {
   font-size: 16px;
-  background-image:url("http://eduardosmexicanrestaurant.com/images/faj_fondo.gif?crc=3785398201");
+  background-image: url("http://www.3dsmodels.com/textures/Background/3079.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -89,10 +84,11 @@ body {
 
 /*Header-name CSS*/
 
-header {
+header.top {
   border: solid 1px black;
   position: relative;
   height: 100px;
+  background-image: url("https://www.wallpapersbrowse.com/images/28/287rap1.jpg");
 }
 
 header.name {
