@@ -60,11 +60,15 @@ section {
 }
 
 aside {
-  background-color: purple;
+  color: white;
 }
 
  footer {
    background-color: green;
+ }
+
+ main {
+
  }
 
 /* Fonts */
@@ -79,6 +83,7 @@ body {
   background-image: url("http://www.3dsmodels.com/textures/Background/3079.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 
 }
 
@@ -152,9 +157,18 @@ aside {
 .left {
   position: absolute;
   left: 0px;
+  bottom: 0px;
 }
 
 .right {
   position: absolute;
   right: 0px;
+  bottom: 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
 }
