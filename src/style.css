@@ -6,6 +6,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+  height: 100%;
+  width: 100%;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -82,9 +86,10 @@ body {
   font-size: 16px;
   background-image: url("http://www.3dsmodels.com/textures/Background/3079.JPG");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   position: relative;
-
+  height: 100%;
+  width: 100%;
 }
 
 /*Header-name CSS*/
@@ -171,4 +176,7 @@ footer {
   bottom: 0px;
   right: 0px;
   left: 0px;
+  background-image: url("http://www.publicdomainpictures.net/pictures/160000/t2/red-speckled-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
