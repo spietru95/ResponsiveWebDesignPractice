@@ -84,9 +84,12 @@ aside {
 /*Background CSS*/
 body {
   font-size: 16px;
+  background-color: orange;
+  /*
   background-image: url("http://www.3dsmodels.com/textures/Background/3079.JPG");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  */
   position: relative;
   height: 100%;
   width: 100%;
@@ -97,31 +100,44 @@ body {
 header.top {
   border: solid 1px black;
   position: relative;
-  height: 100px;
+  height: auto;
+  background-color: green;
+  /*
   background-image: url("https://www.wallpapersbrowse.com/images/28/287rap1.jpg");
+  background-position: center;
+  background-size: cover;
+  */
+
 }
 
 header.name {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
   border: 1px solid black;
-  position: absolute;
-  left: 0px;
+  position: relative;
+  text-align: center;
   font-family: "Mexican";
+  font-size: 64px;
 }
 
 nav {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
   border: 1px solid black;
-  position: absolute;
-  right: 0px;
+  display: block;
+  margin: auto;
+  text-align: center;
+
 }
 
 nav ul {
-
+  list-style-type: none;
 }
 
+li {
+  display: inline;
+  margin: 10px;
+}
 /*Main CSS*/
 
 main {
@@ -176,7 +192,13 @@ footer {
   bottom: 0px;
   right: 0px;
   left: 0px;
+  background-color: red;
+  height: 35px;
+  /*
   background-image: url("http://www.publicdomainpictures.net/pictures/160000/t2/red-speckled-background.jpg");
+  background-position: center;
+
   background-repeat: no-repeat;
-  background-size: cover;
+  */
+
 }
