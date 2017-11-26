@@ -98,7 +98,6 @@ body {
 /*Header-name CSS*/
 
 header.top {
-  border: solid 1px black;
   position: relative;
   height: auto;
   background-color: green;
@@ -113,20 +112,26 @@ header.top {
 header.name {
   width: auto;
   height: auto;
-  border: 1px solid black;
+  border-bottom: 3px solid orange;
   position: relative;
   text-align: center;
   font-family: "Mexican";
   font-size: 64px;
+  color: white;
+  padding: 15px;
 }
 
 nav {
   width: auto;
   height: auto;
-  border: 1px solid black;
   display: block;
   margin: auto;
   text-align: center;
+  padding: 15px;
+  font-family: "Mexican";
+  color: white;
+  font-size: 20px;
+  border-bottom: solid 3px red;
 
 }
 
@@ -136,27 +141,25 @@ nav ul {
 
 li {
   display: inline;
-  margin: 10px;
+  margin: 10px 20px;
 }
 /*Main CSS*/
 
 main {
-  border: solid 1px black;
   position: relative;
 }
 
 figure {
-  height: 600px;
-  width: 1800px;
+  height: 400px;
+  width: 1000px;
   margin: 20px auto;
-  border: red 2px solid;
   position: relative;
   background-color: white;
 }
 
 img {
-  height: 600px;
-  width: 1800px;
+  height: 400px;
+  width: 1000px;
   opacity: .7;
 }
 
