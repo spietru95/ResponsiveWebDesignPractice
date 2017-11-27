@@ -81,10 +81,15 @@ aside {
   src: url(fonts/Mexican.TTF);
 }
 
+@font-face {
+  font-family: "Mayan";
+  src: url(fonts/Mayan.ttf);
+}
+
 /*Background CSS*/
 body {
   font-size: 16px;
-  background-color: orange;
+  background-color: #FFB90D;
   /*
   background-image: url("http://www.3dsmodels.com/textures/Background/3079.JPG");
   background-repeat: no-repeat;
@@ -100,7 +105,7 @@ body {
 header.top {
   position: relative;
   height: auto;
-  background-color: green;
+  background-color:#7AA662;
   /*
   background-image: url("https://www.wallpapersbrowse.com/images/28/287rap1.jpg");
   background-position: center;
@@ -112,7 +117,7 @@ header.top {
 header.name {
   width: auto;
   height: auto;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid rgb(245, 183, 76);
   position: relative;
   text-align: center;
   font-family: "Mexican";
@@ -131,7 +136,7 @@ nav {
   font-family: "Mexican";
   color: white;
   font-size: 20px;
-  border-bottom: solid 3px red;
+  border-bottom: solid 3px #E33E3B;
 
 }
 
@@ -161,23 +166,34 @@ figure {
 img {
   height: 400px;
   width: 1000px;
-  opacity: .7;
+  opacity: 0.65;
   border-radius: 45px;
 }
 
-figure p {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+
+main div {
+  position: relative;
 }
 
+div p {
+  position: relative;
+  bottom: 400px;
+  left: 800px;
+  font-size: 36px;
+  font-family: "Mayan";
+  font-weight: bold;
+  color: white;
+
+}
 
 }
 
 aside {
-  width: 20px;
+  width: 40px;
   height: 90px;
   margin: 1px;
+  background-color: black;
+  border: 3px solid black;
 }
 
 .left {
@@ -197,8 +213,9 @@ footer {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  background-color: red;
+  background-color:#E33E3B;
   height: 35px;
+  border-top: 3px solid #7AA662;
   /*
   background-image: url("http://www.publicdomainpictures.net/pictures/160000/t2/red-speckled-background.jpg");
   background-position: center;
