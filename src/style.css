@@ -196,6 +196,21 @@ aside {
   border: 3px solid black;
 }
 
+table {
+  font-family: "Mayan";
+}
+
+
+tr {
+  padding: 10px; 
+  margin: 5px;
+}
+td {
+  padding: 10px;
+  margin: 5px;
+  
+}
+
 .left {
   position: absolute;
   left: 0px;
