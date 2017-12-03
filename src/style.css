@@ -56,212 +56,25 @@ table {
 	border-spacing: 0;
 }
 
-/*Temporary CSS for Positioning*/
-
-
-section {
-  background-color: blue;
-}
-
-aside {
-  color: white;
-}
-
- footer {
-   background-color: green;
- }
-
- main {
-
- }
-
 /* Fonts */
-@font-face {
-  font-family: "Mexican";
-  src: url(fonts/Mexican.TTF);
-}
 
-@font-face {
-  font-family: "Mayan";
-  src: url(fonts/Mayan.ttf);
-}
 
-/*Background CSS*/
 body {
-  font-size: 16px;
-  background-color: #FFB90D;
-  /*
-  background-image: url("http://www.3dsmodels.com/textures/Background/3079.JPG");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  */
   position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
-/*Header-name CSS*/
-
-header.top {
-  position: relative;
-  height: auto;
-  background-color:#7AA662;
-  /*
-  background-image: url("https://www.wallpapersbrowse.com/images/28/287rap1.jpg");
-  background-position: center;
-  background-size: cover;
-  */
-
-}
-
-header.name {
-  width: auto;
-  height: auto;
-  border-bottom: 3px solid rgb(245, 183, 76);
-  position: relative;
+header {
+  width: 100%;
   text-align: center;
-  font-family: "Mexican";
-  font-size: 64px;
-  color: white;
-  padding: 15px;
 }
 
 nav {
-  width: auto;
-  height: auto;
-  display: block;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  padding: 15px;
-  font-family: "Mexican";
-  color: white;
-  font-size: 20px;
-  border-bottom: solid 3px #E33E3B;
-
 }
-
-nav ul {
-  list-style-type: none;
-}
-
-li {
-  display: inline;
-  margin: 10px 20px;
-}
-/*Main CSS*/
-
-main {
-  position: relative;
-}
-
-figure {
-  height: 400px;
-  width: 1000px;
-  margin: 20px auto;
-  position: relative;
-  background-color: white;
-  border-radius: 45px;
-}
-
-img {
-  height: 400px;
-  width: 1000px;
-  opacity: 0.65;
-  border-radius: 45px;
-}
-
-
-main div {
-  position: relative;
-}
-
-div p {
-  position: relative;
-  bottom: 400px;
-  left: 800px;
-  font-size: 36px;
-  font-family: "Mayan";
-  font-weight: bold;
-  color: white;
-
-}
-
-}
-
-main {
-}
-
-div.menus {
-  position: relative;
-}
-
-table {
-  font-family: "Mayan";
-  margin: auto;
-  width: 20%;
-  position: relative;
-  text-align: center;
-  border: solid 4px #7AA662;
-}
-
-th {
-  border-bottom: solid #7AA662 4px;
-  color: black;
-  font-size: 24px;
-  padding: 10px;
-}
-tr {
-  padding: 10px;
-  margin: 5px;
-}
-td {
-  padding: 10px;
-  margin: 5px;
-  font-size: 24px;
-  color: #E33E3B;
-
-
-}
-
-caption {
-  color: black;
-  font-size: 36px;
-  padding: 5px;
-}
-
-}
-
-testy {
-  width: 400px;
-  height: 300px;
-  background-color: black;
-  border: 1px solid black;
-}
-.left {
-  float: left;
-  margin-left: 15%;
-}
-
-.right {
-  margin-left: 30%;
-  float: left;
-
-}
-
-footer {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  background-color:#E33E3B;
-  height: 4%;
-  text-align: center;
-  /*
-  background-image: url("http://www.publicdomainpictures.net/pictures/160000/t2/red-speckled-background.jpg");
-  background-position: center;
-
-  background-repeat: no-repeat;
-  */
-
+article {
+  width: 100%;
 }
