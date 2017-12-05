@@ -77,4 +77,13 @@ nav {
 }
 article {
   width: 100%;
+  position: relative;
+  text-align: center;
+ 
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  margin: auto;
 }
