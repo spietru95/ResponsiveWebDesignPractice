@@ -9,6 +9,8 @@
 html {
   height: 100%;
   width: 100%;
+  font-size: 16px;
+  
 }
 
 html, body, div, span, applet, object, iframe,
@@ -38,7 +40,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  font-size: 62.5%;
+  
+  
 }
 ol, ul {
 	list-style: none;
@@ -69,21 +74,66 @@ body {
 header {
   width: 100%;
   text-align: center;
+  font-size: 1.6em;
+  
 }
 
 nav {
   width: 100%;
   text-align: center;
+  font-size: 1.6em;
+  
 }
 article {
-  width: 100%;
+  width: 80%;
   position: relative;
+  font-size: 1.6em;
+  margin: auto;
+  border: solid 1px black;
   text-align: center;
  
 }
 
-img {
-  height: 40px;
-  width: 40px;
-  margin: auto;
+/* About Me Styles */
+
+.aboutme {
+  text-align: left;
+  height: 4em;
 }
+
+img {
+  height: 4em;
+  width: 4em;
+  float: left;
+}
+
+/* About Me Styles */
+
+/* Work Experience Styles */
+.workexperience {
+  width: 100%;
+  height: 10em;
+}
+
+.leftbox {
+  width: 33%;
+  float: left;
+  background-color: blue;
+  height: 10em;
+}
+
+.middlebox {
+  width: 33%;
+  float: left;
+  background-color: green;
+  height: 10em;
+}
+
+.rightbox {
+  width: 33%;
+  float: left;
+  background-color: red;
+  height: 10em;
+}
+
+/* Work Experience Styles */
