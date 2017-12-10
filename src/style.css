@@ -10,6 +10,18 @@ html {
   height: 100%;
   width: 100%;
   font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    
+  
 
 }
 
@@ -42,6 +54,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-size: 62.5%;
+  background-color: hsla(35, 90%, 97%, 1);
 
 
 }
@@ -101,6 +114,8 @@ article {
   margin: auto;
   text-align: center;
   border: solid black 1px;
+  background-color:hsla(209, 11%, 51%, 1);
+  margin: 1em auto;
 
 }
 
@@ -121,7 +136,6 @@ img {
 /* Work Experience Styles */
 .workexperience {
   height: auto;
-  background-color: green;
 }
 
 .workexperience h3 {
@@ -129,10 +143,11 @@ img {
 }
 
 .contentbox3rd {
-  width: 33.3333333%;
+  width: 30%;
   float: left;
   height: 10em;
   border: solid 1px black;
+  margin-left: 2.5%
 }
 
 .contentbox2nd {
@@ -140,13 +155,15 @@ img {
   float: left;
   height: 10em;
   border: solid 1px black;
+  
 }
 
-.contenbox {
+.contentbox {
   width: 100%;
   float: left;
   height: 10em;
   border: solid 1px black;
 }
+
 
 /* Work Experience Styles */
