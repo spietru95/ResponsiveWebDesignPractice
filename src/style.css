@@ -126,26 +126,27 @@ img {
 
 .workexperience h3 {
   clear: both;
-
-
 }
 
-.leftbox {
+.contentbox3rd {
   width: 33.3333333%;
   float: left;
   height: 10em;
+  border: solid 1px black;
 }
 
-.middlebox {
-  width: 33.3333333%;
+.contentbox2nd {
+  width: 50%;
   float: left;
   height: 10em;
+  border: solid 1px black;
 }
 
-.rightbox {
-  width: 33.333333%;
+.contenbox {
+  width: 100%;
   float: left;
   height: 10em;
+  border: solid 1px black;
 }
 
 /* Work Experience Styles */
