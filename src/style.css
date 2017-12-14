@@ -74,10 +74,11 @@ table {
 	border-spacing: 0;
 }
 
-/* Fonts */
+/* Fonts-S */
 
+/* Fonts-E */
 
-/* Clearfix */
+/* Clearfix-S */
 
 .group:after {
   content: "";
@@ -85,7 +86,7 @@ table {
   clear: both;
 }
 
-/* Clearfix */
+/* Clearfix-E */
 
 body {
   position: relative;
@@ -94,12 +95,18 @@ body {
   overflow: hidden;
 }
 
+/* Header Styles-S */
 header {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
+  font-family: 'LeagueGothic';
 
 }
+
+/* Header Styles-E */
+
+/* Nav Bar Styles-S */
 
 nav {
   width: 100%;
@@ -107,6 +114,9 @@ nav {
   font-size: 1.6em;
 
 }
+
+/* Nav Bar Styles-E */
+
 article {
   width: 80%;
   position: relative;
@@ -131,6 +141,8 @@ img {
   float: left;
 }
 
+
+
 /* About Me Styles */
 
 /* Work Experience Styles */
@@ -145,23 +157,23 @@ img {
 .contentbox3rd {
   width: 30%;
   float: left;
-  height: 10em;
+  height: auto;
   border: solid 1px black;
-  margin-left: 2.5%
+  margin-left: 2.5%;
 }
 
 .contentbox2nd {
-  width: 50%;
+  width: 42.5%;
   float: left;
-  height: 10em;
+  height: auto;
   border: solid 1px black;
-  
+  margin-left: 5%;
 }
 
 .contentbox {
   width: 100%;
   float: left;
-  height: 10em;
+  height: auto;
   border: solid 1px black;
 }
 
