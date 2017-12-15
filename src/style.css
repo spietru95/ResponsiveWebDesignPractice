@@ -20,8 +20,8 @@ html {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-    
-  
+
+
 
 }
 
@@ -76,6 +76,16 @@ table {
 
 /* Fonts-S */
 
+@font-face {
+  font-family: 'CantataOne';
+  src: url(Fonts/Cantata_One/CantataOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(Fonts/Lato-Regular.ttf);
+}
+
 /* Fonts-E */
 
 /* Clearfix-S */
@@ -92,7 +102,6 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 /* Header Styles-S */
@@ -100,7 +109,7 @@ header {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
-  font-family: 'LeagueGothic';
+  font-family: 'CantataOne';
 
 }
 
@@ -112,11 +121,13 @@ nav {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
+  font-family: 'Lato';
 
 }
 
 /* Nav Bar Styles-E */
 
+/* Overall Page Styles-S */
 article {
   width: 80%;
   position: relative;
@@ -126,8 +137,24 @@ article {
   border: solid black 1px;
   background-color:hsla(209, 11%, 51%, 1);
   margin: 1em auto;
+  font-family: 'Lato';
+  padding-left: 1em;
+  padding-right: 1em;
 
 }
+
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+/* Overall Page Styles-E */
 
 /* About Me Styles */
 
@@ -140,18 +167,12 @@ img {
   width: 4em;
   float: left;
 }
-
-
-
 /* About Me Styles */
 
 /* Work Experience Styles */
-.workexperience {
-  height: auto;
-}
 
-.workexperience h3 {
-  clear: both;
+.workexperience h1 {
+  margin
 }
 
 .contentbox3rd {
@@ -175,6 +196,7 @@ img {
   float: left;
   height: auto;
   border: solid 1px black;
+  margin-bottom: 1em;
 }
 
 
