@@ -172,7 +172,7 @@ img {
 /* Work Experience Styles */
 
 .workexperience h1 {
-  margin
+
 }
 
 .contentbox3rd {
@@ -181,6 +181,7 @@ img {
   height: auto;
   border: solid 1px black;
   margin-left: 2.5%;
+  margin-top: 2.5%;
 }
 
 .contentbox2nd {
