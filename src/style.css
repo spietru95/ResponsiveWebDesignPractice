@@ -55,6 +55,9 @@ body {
   line-height: 1;
   font-size: 62.5%;
   background-color: hsla(35, 90%, 97%, 1);
+  position: relative;
+  height: 100%;
+  width: 100%;
 
 
 }
@@ -98,17 +101,13 @@ table {
 
 /* Clearfix-E */
 
-body {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
+
 
 /* Header Styles-S */
 header {
   width: 100%;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 3.0em;
   font-family: 'CantataOne';
 
 }
@@ -120,7 +119,7 @@ header {
 nav {
   width: 100%;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 2.4em;
   font-family: 'Lato';
 
 }
@@ -129,9 +128,9 @@ nav {
 
 /* Overall Page Styles-S */
 article {
-  width: 80%;
+  width: 60%;
   position: relative;
-  font-size: 1.6em;
+  font-size: 2.4em;
   margin: auto;
   text-align: center;
   border: solid black 1px;
@@ -140,7 +139,6 @@ article {
   font-family: 'Lato';
   padding-left: 1em;
   padding-right: 1em;
-
 }
 
 h1 {
@@ -172,7 +170,16 @@ img {
 /* Work Experience Styles */
 
 .workexperience h1 {
+  margin-bottom: .571428571em;
+}
 
+.workexperience h2 {
+  margin-bottom: .277777777777em;
+}
+
+.workexperience h3 {
+  font-style: italic;
+  margin-bottom: .166666666em;
 }
 
 .contentbox3rd {
@@ -194,7 +201,6 @@ img {
 
 .contentbox {
   width: 100%;
-  float: left;
   height: auto;
   border: solid 1px black;
   margin-bottom: 1em;
