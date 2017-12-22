@@ -105,7 +105,7 @@ table {
 
 /* Header Styles-S */
 header {
-  text-align: center;
+
   font-size: 3.0em;
   font-family: 'CantataOne';
   border: solid 1px black;
@@ -131,7 +131,7 @@ nav {
   text-align: center;
   font-size: 2.4em;
   font-family: 'Lato';
-  border: solid black 1px;
+  border: solid 1px black;
   display: inline-block;
   width: 50%;
   height: 5em;
@@ -139,7 +139,7 @@ nav {
   margin-right: 10%;
   text-align: left;
   position: relative;
-  
+
 }
 
 nav ul {
@@ -149,7 +149,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin: 0em 1em 0em .25em;
+  margin: 0em 5em 0em .25em;
 }
 
 
